@@ -1,0 +1,24 @@
+using UnityEngine;
+using System.Collections;
+
+public class playerHandler : MonoBehaviour {
+
+
+	void Start () {
+
+	}
+	
+	// Update is called once per frame
+	void Update () {
+
+	}
+
+
+	public void jump(){
+
+		this.rigidbody2D.AddForce (Vector2.up * 3000);
+		
+	}
+
+
+}
